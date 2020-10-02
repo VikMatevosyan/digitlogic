@@ -1,0 +1,215 @@
+/*@font-face {*/
+/*    font-family: 'Arizonia';*/
+/*    url('/font/Arizonia-Regular.ttf') format('truetype');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*    font-display: swap;*/
+/*}*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arizonia', arial;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+header {
+    min-height: 100vh;
+    background-image: url("./img/image_2020-10-01_15-32-20.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.num-title {
+    display: flex;
+    position: absolute;
+    top: 23%;
+    left: 30%;
+    text-transform: uppercase;
+}
+.num-number {
+    font-size: 150px;
+    color: white;
+}
+.num-text {
+    width: 30%;
+    font-size: 60px;
+    line-height: 57px;
+    margin-top: 27px;
+    color: white;
+}
+.vector {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav-bar {
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.menu {
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu li {
+    transition: all 0.6s;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+.menu li:hover {
+    transform: scale(1.2);
+    transition: all 0.6s;
+}
+.log {
+    text-decoration: none;
+    color: white;
+}
+
+.triangle {
+    fill: #448F89;
+    position: absolute;
+    top: -17%;
+    left: 0;
+    width: 100%;
+    min-height: 40vh;
+}
+
+/*main start*/
+section {
+    background: black;
+    color: white;
+    padding-top: 50px;
+}
+.text {
+    padding: 0 15px 0 15px;
+}
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+}
+.fancy h3 {
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.fancy h3:before,
+.fancy h3:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 2px solid white;
+    top: 8px;
+    width: 564px;
+}
+.fancy h3:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.fancy h3:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.app-all {
+    display: flex;
+    justify-content: space-between;
+}
+.app-about {
+    width: 100%;
+    padding: 45px 0 0 15px;
+}
+.phone {
+    margin-bottom: 30px;
+
+}
+.phone img {
+    width: 85%;
+}
+.google {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    width: 45%;
+    margin-top: 30px;
+}
+.play {
+    width: 100%;
+}
+.google span {
+    width: 40%;
+}
+.google-text {
+    width: 55%;
+    font-size: 25px;
+}
+.app {
+    display: flex;
+    border: 1px solid white;
+    padding: 10px;
+    width: 35%;
+    margin: 0;
+}
+.apps {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.apple {
+    width: 100%;
+}
+.contact-text {
+    margin-bottom: 35px;
+}
+.contact-title {
+    margin-bottom: 30px;
+}
+.contacts-all {
+    padding-top: 25px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.contact {
+    width: 30%;
+    padding: 0 15px 0 15px;
+}
+.contact ul {
+    list-style: none;
+}
+.contact li {
+   padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+}
+.contact li:last-child {
+    border: none;
+}
+/*main end*/
+
+/*footer start*/
+footer {
+    padding: 25px 0 25px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.media {
+    width: 20%;
+}
+.media ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
